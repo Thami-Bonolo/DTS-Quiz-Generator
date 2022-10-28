@@ -1,0 +1,30 @@
+
+JAVA CLASSES
+************
+Main.java : Driver program
+
+AVL.java
+BinarySearchTree.java
+HashTable.java
+MaxHeap.java & MinHeap.java
+RedBlackTree.java 
+These are all data structures classes that are used in this program.
+There wasn't any major modification done to them. Just the original code as 
+you know it. Well a few changes were made to suit our program. :)
+
+Randomize.java : Creates random integers and store in an array. And this is 
+                used as our data to test/generate quizzes
+
+Questions.java : generates the quizzes
+                This class connnects the main file to the data structures.
+                Takes in user input from main class and pass it to the desired DST then
+                generates quizzes.
+
+HOW TO RUN THE PROGRAM
+**********************
+We suggest that you start with "make clean" to remove all the unwanted(or should we say no longer needed files?) .txt files.
+and re-compile the program.
+This is done to keep the directory clean. Because each different quizzes create their own .txt file.
+
+In the makefile, we have included the "run" rule. And its dependency is classes. 
+So by default even if you run without compile it will do so automatically.
